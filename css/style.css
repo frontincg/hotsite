@@ -1,7 +1,9 @@
 html {
     font-family: 'Open Sans', sans-serif;
     background: url(../img/bg.jpg) no-repeat;
-    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
     height: 100%;
 }
 
@@ -51,7 +53,7 @@ body {
     font-weight: 300;
 }
 
-.content .notice div span { .
+.content .notice span {
     font-style: normal;
     font-weight: 400;
 }
